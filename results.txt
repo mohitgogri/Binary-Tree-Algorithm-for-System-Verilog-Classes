@@ -1,0 +1,1453 @@
+/apps/synopsys/VCSMX_NEW/bin/vcs
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'Fedora release 22 (Twenty Two)' is not supported on 'x86_64' 
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '4.2.3-200.fc22.x86_64' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+                         Chronologic VCS (TM)
+           Version I-2014.03-2 -- Sun Nov  1 18:07:20 2015
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS/VCS-MX Release Notes
+
+Parsing design file 'tbbt.sv'
+Parsing included file 'btclass.sv'.
+Back to file 'tbbt.sv'.
+Top Level Modules:
+       testbench
+TimeScale is 1 ns / 10 ps
+VCS Coverage Metrics Release I-2014.03-2 Copyright (c) 1991-2014 by Synopsys Inc.
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_0_1.so --whole-archive pre_vcsobj_0_1.a --no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_0_1.so  rmapats_mop.o rmapats.o rmar.o           /apps/synopsys/VCSMX_NEW/linux/lib/libzerosoft_rt_stubs.so /apps/synopsys/VCSMX_NEW/linux/lib/libvirsim.so /apps/synopsys/VCSMX_NEW/linux/lib/librterrorinf.so /apps/synopsys/VCSMX_NEW/linux/lib/libsnpsmalloc.so    /apps/synopsys/VCSMX_NEW/linux/lib/libvcsnew.so /apps/synopsys/VCSMX_NEW/linux/lib/libreader_common.so /apps/synopsys/VCSMX_NEW/linux/lib/libBA.a /apps/synopsys/VCSMX_NEW/linux/lib/libuclinative.so   -Wl,-whole-archive /apps/synopsys/VCSMX_NEW/linux/lib/libvcsucli.so -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o    /apps/synopsys/VCSMX_NEW/linux/lib/vcs_save_restore_new.o /apps/synopsys/VCSMX_NEW/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: .185 seconds to compile + .017 seconds to elab + .118 seconds to link
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  Nov  1 18:07 2015
+
+ VCS Coverage Metrics Release I-2014.03-2 Copyright (c) 1991-2014 by Synopsys Inc.
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171114984 	 gpt=         0
+before: 	 	 lpt=  171114984 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171115040 	 gpt=         0
+after :		 lpt=  171114984 	 gpt=         0
+before: 	 	 lpt=  171114984 	 gpt=         0
+before: 	 	 lpt=  171115040 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt=         0
+after :		 lpt=  171114984 	 gpt=         0
+before: 	 	 lpt=  171114984 	 gpt=         0
+before: 	 	 lpt=  171115040 	 gpt=         0
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt=         0
+before: 	 	 lpt=  171114984 	 gpt=         0
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt= 171115096
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171115264
+after :		 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt= 171115096
+before: 	 	 lpt=          0 	 gpt= 171115264
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171115376 	 gpt=         0
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt=         0
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171115488 	 gpt=         0
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171115544 	 gpt=         0
+after :		 lpt=  171115488 	 gpt=         0
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt=         0
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt=         0
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171115768 	 gpt=         0
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171115824 	 gpt=         0
+after :		 lpt=  171115768 	 gpt=         0
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt=         0
+before: 	 	 lpt=  171115824 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171115880 	 gpt=         0
+after :		 lpt=  171115824 	 gpt=         0
+after :		 lpt=  171115768 	 gpt=         0
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=          0 	 gpt= 171115712
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171115992
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171116048 	 gpt=         0
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171116104 	 gpt=         0
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171116160 	 gpt=         0
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt=         0
+before: 	 	 lpt=  171115824 	 gpt=         0
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt=         0
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt=         0
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171116272
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt=         0
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt=         0
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171115880 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171116328
+after :		 lpt=  171115880 	 gpt=         0
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt=         0
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171116384
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt=         0
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171115880 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt= 171116328
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171116440 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171116328
+after :		 lpt=  171115880 	 gpt=         0
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt=         0
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116048 	 gpt=         0
+after :		 lpt=  171116048 	 gpt= 171116496
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=          0 	 gpt= 171115992
+after :		 lpt=  171116552 	 gpt= 171115992
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116048 	 gpt= 171116496
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171116608
+after :		 lpt=  171116048 	 gpt= 171116496
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt=         0
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116552 	 gpt= 171115992
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171116720
+after :		 lpt=  171116552 	 gpt= 171115992
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171116776
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116104 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171116832
+after :		 lpt=  171116104 	 gpt=         0
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171115880 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt= 171116328
+after :		 lpt=  171116888 	 gpt= 171116328
+after :		 lpt=  171115880 	 gpt=         0
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171115880 	 gpt=         0
+before: 	 	 lpt=  171116888 	 gpt= 171116328
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171116944 	 gpt=         0
+after :		 lpt=  171116888 	 gpt= 171116328
+after :		 lpt=  171115880 	 gpt=         0
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116048 	 gpt= 171116496
+before: 	 	 lpt=          0 	 gpt= 171116608
+after :		 lpt=  171117000 	 gpt= 171116608
+after :		 lpt=  171116048 	 gpt= 171116496
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116048 	 gpt= 171116496
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171117056 	 gpt=         0
+after :		 lpt=  171116048 	 gpt= 171116496
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116048 	 gpt= 171116496
+before: 	 	 lpt=  171117000 	 gpt= 171116608
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171117112 	 gpt=         0
+after :		 lpt=  171117000 	 gpt= 171116608
+after :		 lpt=  171116048 	 gpt= 171116496
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=          0 	 gpt= 171116384
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171117168
+after :		 lpt=          0 	 gpt= 171116384
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=          0 	 gpt= 171116272
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171117224 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171116272
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=          0 	 gpt= 171115096
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171115880 	 gpt=         0
+before: 	 	 lpt=  171116888 	 gpt= 171116328
+before: 	 	 lpt=  171116440 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171117336 	 gpt=         0
+after :		 lpt=  171116440 	 gpt=         0
+after :		 lpt=  171116888 	 gpt= 171116328
+after :		 lpt=  171115880 	 gpt=         0
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=          0 	 gpt= 171116776
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171117392 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171116776
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=          0 	 gpt= 171116272
+before: 	 	 lpt=  171117224 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171117448 	 gpt=         0
+after :		 lpt=  171117224 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171116272
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=          0 	 gpt= 171116776
+before: 	 	 lpt=  171117392 	 gpt=         0
+after :		 lpt=  171117392 	 gpt= 171117504
+after :		 lpt=          0 	 gpt= 171116776
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171117560 	 gpt=         0
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=          0 	 gpt= 171116272
+after :		 lpt=  171117616 	 gpt= 171116272
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171117280 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116048 	 gpt= 171116496
+before: 	 	 lpt=  171117000 	 gpt= 171116608
+before: 	 	 lpt=  171117112 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171117672 	 gpt=         0
+after :		 lpt=  171117112 	 gpt=         0
+after :		 lpt=  171117000 	 gpt= 171116608
+after :		 lpt=  171116048 	 gpt= 171116496
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116160 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171117728
+after :		 lpt=  171116160 	 gpt=         0
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171117784 	 gpt=         0
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=          0 	 gpt= 171116384
+before: 	 	 lpt=          0 	 gpt= 171117168
+after :		 lpt=  171117840 	 gpt= 171117168
+after :		 lpt=          0 	 gpt= 171116384
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171117616 	 gpt= 171116272
+before: 	 	 lpt=  171117224 	 gpt=         0
+before: 	 	 lpt=  171117448 	 gpt=         0
+after :		 lpt=  171117448 	 gpt= 171117896
+after :		 lpt=  171117224 	 gpt=         0
+after :		 lpt=  171117616 	 gpt= 171116272
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=  171117784 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171117952 	 gpt=         0
+after :		 lpt=  171117784 	 gpt=         0
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171115880 	 gpt=         0
+before: 	 	 lpt=  171116888 	 gpt= 171116328
+before: 	 	 lpt=  171116944 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171118008 	 gpt=         0
+after :		 lpt=  171116944 	 gpt=         0
+after :		 lpt=  171116888 	 gpt= 171116328
+after :		 lpt=  171115880 	 gpt=         0
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116104 	 gpt=         0
+after :		 lpt=  171116104 	 gpt= 171118064
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116104 	 gpt= 171118064
+before: 	 	 lpt=          0 	 gpt= 171116832
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171118120
+after :		 lpt=          0 	 gpt= 171116832
+after :		 lpt=  171116104 	 gpt= 171118064
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116104 	 gpt= 171118064
+before: 	 	 lpt=          0 	 gpt= 171116832
+before: 	 	 lpt=          0 	 gpt= 171118120
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171118176
+after :		 lpt=          0 	 gpt= 171118120
+after :		 lpt=          0 	 gpt= 171116832
+after :		 lpt=  171116104 	 gpt= 171118064
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116104 	 gpt= 171118064
+before: 	 	 lpt=          0 	 gpt= 171116832
+before: 	 	 lpt=          0 	 gpt= 171118120
+before: 	 	 lpt=          0 	 gpt= 171118176
+after :		 lpt=  171118232 	 gpt= 171118176
+after :		 lpt=          0 	 gpt= 171118120
+after :		 lpt=          0 	 gpt= 171116832
+after :		 lpt=  171116104 	 gpt= 171118064
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171115880 	 gpt=         0
+before: 	 	 lpt=  171116888 	 gpt= 171116328
+before: 	 	 lpt=  171116440 	 gpt=         0
+before: 	 	 lpt=  171117336 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171118288
+after :		 lpt=  171117336 	 gpt=         0
+after :		 lpt=  171116440 	 gpt=         0
+after :		 lpt=  171116888 	 gpt= 171116328
+after :		 lpt=  171115880 	 gpt=         0
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=          0 	 gpt= 171116384
+after :		 lpt=  171118344 	 gpt= 171116384
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171117280 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116048 	 gpt= 171116496
+before: 	 	 lpt=  171117056 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171118400 	 gpt=         0
+after :		 lpt=  171117056 	 gpt=         0
+after :		 lpt=  171116048 	 gpt= 171116496
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171117280 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116552 	 gpt= 171115992
+before: 	 	 lpt=          0 	 gpt= 171116720
+after :		 lpt=  171118456 	 gpt= 171116720
+after :		 lpt=  171116552 	 gpt= 171115992
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=  171117784 	 gpt=         0
+before: 	 	 lpt=  171117952 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171118512
+after :		 lpt=  171117952 	 gpt=         0
+after :		 lpt=  171117784 	 gpt=         0
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=  171118344 	 gpt= 171116384
+before: 	 	 lpt=  171117840 	 gpt= 171117168
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171118568
+after :		 lpt=  171117840 	 gpt= 171117168
+after :		 lpt=  171118344 	 gpt= 171116384
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171117280 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116048 	 gpt= 171116496
+before: 	 	 lpt=  171117000 	 gpt= 171116608
+before: 	 	 lpt=  171117112 	 gpt=         0
+before: 	 	 lpt=  171117672 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171118624 	 gpt=         0
+after :		 lpt=  171117672 	 gpt=         0
+after :		 lpt=  171117112 	 gpt=         0
+after :		 lpt=  171117000 	 gpt= 171116608
+after :		 lpt=  171116048 	 gpt= 171116496
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=  171118344 	 gpt= 171116384
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171118680
+after :		 lpt=  171118344 	 gpt= 171116384
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171117280 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116552 	 gpt= 171115992
+before: 	 	 lpt=  171118456 	 gpt= 171116720
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171118736 	 gpt=         0
+after :		 lpt=  171118456 	 gpt= 171116720
+after :		 lpt=  171116552 	 gpt= 171115992
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=          0 	 gpt= 171116776
+before: 	 	 lpt=  171117392 	 gpt= 171117504
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171118792 	 gpt=         0
+after :		 lpt=  171117392 	 gpt= 171117504
+after :		 lpt=          0 	 gpt= 171116776
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116160 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt= 171117728
+after :		 lpt=  171118848 	 gpt= 171117728
+after :		 lpt=  171116160 	 gpt=         0
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116104 	 gpt= 171118064
+before: 	 	 lpt=          0 	 gpt= 171116832
+before: 	 	 lpt=          0 	 gpt= 171118120
+before: 	 	 lpt=  171118232 	 gpt= 171118176
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171118904
+after :		 lpt=  171118232 	 gpt= 171118176
+after :		 lpt=          0 	 gpt= 171118120
+after :		 lpt=          0 	 gpt= 171116832
+after :		 lpt=  171116104 	 gpt= 171118064
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=  171118344 	 gpt= 171116384
+before: 	 	 lpt=  171117840 	 gpt= 171117168
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171118960 	 gpt=         0
+after :		 lpt=  171117840 	 gpt= 171117168
+after :		 lpt=  171118344 	 gpt= 171116384
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=  171118344 	 gpt= 171116384
+before: 	 	 lpt=  171117840 	 gpt= 171117168
+before: 	 	 lpt=          0 	 gpt= 171118568
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171119016 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171118568
+after :		 lpt=  171117840 	 gpt= 171117168
+after :		 lpt=  171118344 	 gpt= 171116384
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116104 	 gpt= 171118064
+before: 	 	 lpt=          0 	 gpt= 171116832
+before: 	 	 lpt=          0 	 gpt= 171118120
+after :		 lpt=  171119072 	 gpt= 171118120
+after :		 lpt=          0 	 gpt= 171116832
+after :		 lpt=  171116104 	 gpt= 171118064
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116104 	 gpt= 171118064
+before: 	 	 lpt=          0 	 gpt= 171116832
+after :		 lpt=  171119128 	 gpt= 171116832
+after :		 lpt=  171116104 	 gpt= 171118064
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116160 	 gpt=         0
+before: 	 	 lpt=  171118848 	 gpt= 171117728
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171119184
+after :		 lpt=  171118848 	 gpt= 171117728
+after :		 lpt=  171116160 	 gpt=         0
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171115880 	 gpt=         0
+before: 	 	 lpt=  171116888 	 gpt= 171116328
+before: 	 	 lpt=  171116440 	 gpt=         0
+before: 	 	 lpt=  171117336 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt= 171118288
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171119240 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171118288
+after :		 lpt=  171117336 	 gpt=         0
+after :		 lpt=  171116440 	 gpt=         0
+after :		 lpt=  171116888 	 gpt= 171116328
+after :		 lpt=  171115880 	 gpt=         0
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171115880 	 gpt=         0
+before: 	 	 lpt=  171116888 	 gpt= 171116328
+before: 	 	 lpt=  171116944 	 gpt=         0
+after :		 lpt=  171116944 	 gpt= 171119296
+after :		 lpt=  171116888 	 gpt= 171116328
+after :		 lpt=  171115880 	 gpt=         0
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171117280 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116048 	 gpt= 171116496
+before: 	 	 lpt=  171117000 	 gpt= 171116608
+before: 	 	 lpt=  171117112 	 gpt=         0
+before: 	 	 lpt=  171117672 	 gpt=         0
+after :		 lpt=  171117672 	 gpt= 171119352
+after :		 lpt=  171117112 	 gpt=         0
+after :		 lpt=  171117000 	 gpt= 171116608
+after :		 lpt=  171116048 	 gpt= 171116496
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171117280 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116048 	 gpt= 171116496
+before: 	 	 lpt=  171117000 	 gpt= 171116608
+before: 	 	 lpt=  171117112 	 gpt=         0
+before: 	 	 lpt=  171117672 	 gpt= 171119352
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171119408 	 gpt=         0
+after :		 lpt=  171117672 	 gpt= 171119352
+after :		 lpt=  171117112 	 gpt=         0
+after :		 lpt=  171117000 	 gpt= 171116608
+after :		 lpt=  171116048 	 gpt= 171116496
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=  171117784 	 gpt=         0
+before: 	 	 lpt=  171117952 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt= 171118512
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171119464
+after :		 lpt=          0 	 gpt= 171118512
+after :		 lpt=  171117952 	 gpt=         0
+after :		 lpt=  171117784 	 gpt=         0
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171117280 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116048 	 gpt= 171116496
+before: 	 	 lpt=  171117000 	 gpt= 171116608
+before: 	 	 lpt=  171117112 	 gpt=         0
+before: 	 	 lpt=  171117672 	 gpt= 171119352
+before: 	 	 lpt=  171118624 	 gpt=         0
+after :		 lpt=  171118624 	 gpt= 171119520
+after :		 lpt=  171117672 	 gpt= 171119352
+after :		 lpt=  171117112 	 gpt=         0
+after :		 lpt=  171117000 	 gpt= 171116608
+after :		 lpt=  171116048 	 gpt= 171116496
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171117616 	 gpt= 171116272
+before: 	 	 lpt=  171117224 	 gpt=         0
+before: 	 	 lpt=  171117448 	 gpt= 171117896
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171119576
+after :		 lpt=  171117448 	 gpt= 171117896
+after :		 lpt=  171117224 	 gpt=         0
+after :		 lpt=  171117616 	 gpt= 171116272
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171117616 	 gpt= 171116272
+before: 	 	 lpt=  171117224 	 gpt=         0
+before: 	 	 lpt=  171117448 	 gpt= 171117896
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171119632 	 gpt=         0
+after :		 lpt=  171117448 	 gpt= 171117896
+after :		 lpt=  171117224 	 gpt=         0
+after :		 lpt=  171117616 	 gpt= 171116272
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171117280 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116048 	 gpt= 171116496
+before: 	 	 lpt=  171117000 	 gpt= 171116608
+before: 	 	 lpt=  171117112 	 gpt=         0
+before: 	 	 lpt=  171117672 	 gpt= 171119352
+before: 	 	 lpt=  171118624 	 gpt= 171119520
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171119688
+after :		 lpt=  171118624 	 gpt= 171119520
+after :		 lpt=  171117672 	 gpt= 171119352
+after :		 lpt=  171117112 	 gpt=         0
+after :		 lpt=  171117000 	 gpt= 171116608
+after :		 lpt=  171116048 	 gpt= 171116496
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116104 	 gpt= 171118064
+before: 	 	 lpt=  171119128 	 gpt= 171116832
+before: 	 	 lpt=  171119072 	 gpt= 171118120
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171119744 	 gpt=         0
+after :		 lpt=  171119072 	 gpt= 171118120
+after :		 lpt=  171119128 	 gpt= 171116832
+after :		 lpt=  171116104 	 gpt= 171118064
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171117560 	 gpt=         0
+after :		 lpt=  171117560 	 gpt= 171119800
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171115880 	 gpt=         0
+before: 	 	 lpt=  171116888 	 gpt= 171116328
+before: 	 	 lpt=  171116440 	 gpt=         0
+before: 	 	 lpt=  171117336 	 gpt=         0
+after :		 lpt=  171117336 	 gpt= 171119856
+after :		 lpt=  171116440 	 gpt=         0
+after :		 lpt=  171116888 	 gpt= 171116328
+after :		 lpt=  171115880 	 gpt=         0
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115936 	 gpt= 171115712
+before: 	 	 lpt=  171116104 	 gpt= 171118064
+before: 	 	 lpt=  171119128 	 gpt= 171116832
+before: 	 	 lpt=  171119072 	 gpt= 171118120
+before: 	 	 lpt=  171118232 	 gpt= 171118176
+before: 	 	 lpt=          0 	 gpt= 171118904
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171119912 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171118904
+after :		 lpt=  171118232 	 gpt= 171118176
+after :		 lpt=  171119072 	 gpt= 171118120
+after :		 lpt=  171119128 	 gpt= 171116832
+after :		 lpt=  171116104 	 gpt= 171118064
+after :		 lpt=  171115936 	 gpt= 171115712
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171117280 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116552 	 gpt= 171115992
+before: 	 	 lpt=  171118456 	 gpt= 171116720
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171119968
+after :		 lpt=  171118456 	 gpt= 171116720
+after :		 lpt=  171116552 	 gpt= 171115992
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=  171118344 	 gpt= 171116384
+before: 	 	 lpt=  171117840 	 gpt= 171117168
+before: 	 	 lpt=          0 	 gpt= 171118568
+after :		 lpt=  171120024 	 gpt= 171118568
+after :		 lpt=  171117840 	 gpt= 171117168
+after :		 lpt=  171118344 	 gpt= 171116384
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=          0 	 gpt= 171116776
+before: 	 	 lpt=  171117392 	 gpt= 171117504
+before: 	 	 lpt=  171118792 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171120080 	 gpt=         0
+after :		 lpt=  171118792 	 gpt=         0
+after :		 lpt=  171117392 	 gpt= 171117504
+after :		 lpt=          0 	 gpt= 171116776
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171117280 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116552 	 gpt= 171115992
+before: 	 	 lpt=  171118456 	 gpt= 171116720
+before: 	 	 lpt=  171118736 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171120136 	 gpt=         0
+after :		 lpt=  171118736 	 gpt=         0
+after :		 lpt=  171118456 	 gpt= 171116720
+after :		 lpt=  171116552 	 gpt= 171115992
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=  171118344 	 gpt= 171116384
+before: 	 	 lpt=  171117840 	 gpt= 171117168
+before: 	 	 lpt=  171118960 	 gpt=         0
+after :		 lpt=  171118960 	 gpt= 171120192
+after :		 lpt=  171117840 	 gpt= 171117168
+after :		 lpt=  171118344 	 gpt= 171116384
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=  171118344 	 gpt= 171116384
+before: 	 	 lpt=          0 	 gpt= 171118680
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171120248 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171118680
+after :		 lpt=  171118344 	 gpt= 171116384
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=          0 	 gpt= 171116776
+before: 	 	 lpt=  171117392 	 gpt= 171117504
+before: 	 	 lpt=  171118792 	 gpt=         0
+after :		 lpt=  171118792 	 gpt= 171120304
+after :		 lpt=  171117392 	 gpt= 171117504
+after :		 lpt=          0 	 gpt= 171116776
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171115376 	 gpt= 171115432
+before: 	 	 lpt=  171115768 	 gpt= 171116664
+before: 	 	 lpt=  171115824 	 gpt= 171116216
+before: 	 	 lpt=  171117616 	 gpt= 171116272
+before: 	 	 lpt=  171117224 	 gpt=         0
+before: 	 	 lpt=  171117448 	 gpt= 171117896
+before: 	 	 lpt=          0 	 gpt= 171119576
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=          0 	 gpt= 171120360
+after :		 lpt=          0 	 gpt= 171119576
+after :		 lpt=  171117448 	 gpt= 171117896
+after :		 lpt=  171117224 	 gpt=         0
+after :		 lpt=  171117616 	 gpt= 171116272
+after :		 lpt=  171115824 	 gpt= 171116216
+after :		 lpt=  171115768 	 gpt= 171116664
+after :		 lpt=  171115376 	 gpt= 171115432
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=  171117784 	 gpt=         0
+before: 	 	 lpt=  171117952 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt= 171118512
+before: 	 	 lpt=          0 	 gpt= 171119464
+after :		 lpt=  171120416 	 gpt= 171119464
+after :		 lpt=          0 	 gpt= 171118512
+after :		 lpt=  171117952 	 gpt=         0
+after :		 lpt=  171117784 	 gpt=         0
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115040 	 gpt= 171115152
+before: 	 	 lpt=  171117280 	 gpt= 171115096
+before: 	 	 lpt=  171115320 	 gpt= 171115264
+before: 	 	 lpt=  171116552 	 gpt= 171115992
+before: 	 	 lpt=  171118456 	 gpt= 171116720
+before: 	 	 lpt=  171118736 	 gpt=         0
+before: 	 	 lpt=  171120136 	 gpt=         0
+before: 	 	 lpt=          0 	 gpt=         0
+after :		 lpt=  171120472 	 gpt=         0
+after :		 lpt=  171120136 	 gpt=         0
+after :		 lpt=  171118736 	 gpt=         0
+after :		 lpt=  171118456 	 gpt= 171116720
+after :		 lpt=  171116552 	 gpt= 171115992
+after :		 lpt=  171115320 	 gpt= 171115264
+after :		 lpt=  171117280 	 gpt= 171115096
+after :		 lpt=  171115040 	 gpt= 171115152
+after :		 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171114984 	 gpt= 171115208
+before: 	 	 lpt=  171115488 	 gpt= 171115600
+before: 	 	 lpt=  171115544 	 gpt= 171115656
+before: 	 	 lpt=  171118344 	 gpt= 171116384
+before: 	 	 lpt=  171117840 	 gpt= 171117168
+before: 	 	 lpt=  171120024 	 gpt= 171118568
+before: 	 	 lpt=  171119016 	 gpt=         0
+after :		 lpt=  171119016 	 gpt= 171120528
+after :		 lpt=  171120024 	 gpt= 171118568
+after :		 lpt=  171117840 	 gpt= 171117168
+after :		 lpt=  171118344 	 gpt= 171116384
+after :		 lpt=  171115544 	 gpt= 171115656
+after :		 lpt=  171115488 	 gpt= 171115600
+after :		 lpt=  171114984 	 gpt= 171115208
+
+
+-------  Ascending 
+-2129180158
+-2071669239
+-2049467893
+-2034485235
+-1993157102
+-1992863214
+-1987856365
+-1767155667
+-1647550405
+-1640936388
+-1532087735
+-1463288751
+-1448618413
+-1379155877
+-1367501732
+-1309711773
+-1309649309
+-1297668507
+-1295874971
+-1198014863
+-1149085065
+-1143836041
+-1139505032
+-1090191234
+-1088212354
+-1069866368
+-1064739199
+ -997584247
+ -887079274
+ -825439075
+ -809216353
+ -720121174
+ -682213714
+ -607297353
+ -562756932
+ -561108803
+ -517157182
+ -490058043
+ -487095099
+ -482925370
+ -445445430
+ -411658546
+ -406490417
+ -400343344
+ -370411821
+ -358208811
+ -335626025
+ -330615592
+ -201295128
+   15983361
+   84501770
+   91457290
+  102596364
+  112818957
+  114806029
+  151837458
+  178932501
+  251652381
+  265457439
+  274997536
+  293882147
+  303379748
+  353361194
+  484042553
+  486945594
+  512609597
+  519236925
+  549761857
+  641071948
+  670192975
+  769284443
+  777537884
+  824379234
+  899669355
+  921010541
+  992211318
+ 1008792440
+ 1121529733
+ 1123172741
+ 1155413897
+ 1160667530
+ 1177417612
+ 1189058957
+ 1203347855
+ 1206705039
+ 1260466070
+ 1335973279
+ 1433945514
+ 1460999086
+ 1526883766
+ 1665923526
+ 1683484104
+ 1822182361
+ 1924134885
+ 1975848427
+ 1993627629
+ 2027527153
+ 2033215986
+ 2036907506
+ 2087561720
+ 2097015289
+
+
+-------  Descending
+ 2097015289
+ 2087561720
+ 2036907506
+ 2033215986
+ 2027527153
+ 1993627629
+ 1975848427
+ 1924134885
+ 1822182361
+ 1683484104
+ 1665923526
+ 1526883766
+ 1460999086
+ 1433945514
+ 1335973279
+ 1260466070
+ 1206705039
+ 1203347855
+ 1189058957
+ 1177417612
+ 1160667530
+ 1155413897
+ 1123172741
+ 1121529733
+ 1008792440
+  992211318
+  921010541
+  899669355
+  824379234
+  777537884
+  769284443
+  670192975
+  641071948
+  549761857
+  519236925
+  512609597
+  486945594
+  484042553
+  353361194
+  303379748
+  293882147
+  274997536
+  265457439
+  251652381
+  178932501
+  151837458
+  114806029
+  112818957
+  102596364
+   91457290
+   84501770
+   15983361
+ -201295128
+ -330615592
+ -335626025
+ -358208811
+ -370411821
+ -400343344
+ -406490417
+ -411658546
+ -445445430
+ -482925370
+ -487095099
+ -490058043
+ -517157182
+ -561108803
+ -562756932
+ -607297353
+ -682213714
+ -720121174
+ -809216353
+ -825439075
+ -887079274
+ -997584247
+-1064739199
+-1069866368
+-1088212354
+-1090191234
+-1139505032
+-1143836041
+-1149085065
+-1198014863
+-1295874971
+-1297668507
+-1309649309
+-1309711773
+-1367501732
+-1379155877
+-1448618413
+-1463288751
+-1532087735
+-1640936388
+-1647550405
+-1767155667
+-1987856365
+-1992863214
+-1993157102
+-2034485235
+-2049467893
+-2071669239
+-2129180158
+All done
+$finish called from file "tbbt.sv", line 22.
+$finish at simulation time                    0
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM was monitored
+---------------------------------------------------------------------------
+
+ Coverage status: End of All Coverages ...
+
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 00 ps
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Sun Nov  1 18:07:23 2015
